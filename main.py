@@ -2,6 +2,7 @@ from fastmcp import FastMCP
 import os
 import aiosqlite 
 import tempfile
+import json
 
 TEMP_DIR = tempfile.gettempdir()
 DB_PATH = os.path.join(TEMP_DIR, "expenses.db")
